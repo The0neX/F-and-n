@@ -1,0 +1,15 @@
+Hey !! How are you? 
+Im gonna do the documentation of my project.
+
+And for now, 28/06/2026, I dont really now what I was thinking when I started...
+
+Lógica (main):
+    // Explicação do que acontece: Temos o tempo passado no vscode contado em segundos, todo esse processo acontece em 1 segundo (loop -> while)
+    // Aí eu quis armazenar esse valor numa struct, mas eu quis armazenar em segundos,minutos, horas e dias
+    // Para isso eu tive que transformar esses segundos em min,segund,etc...       -> Fiz isso usando a função arrumarTempo
+    // Ok, primeiro passo feito. Agora eu devo realmente armazenar os dados numa struct global, chamada de tempoGlobal
+    // Fiz isso declarando uma struct do tipo Tempo_Total, a própria tempoGlobal. E usei a função atualizarTempo para armazenar os valores na estrutura global
+    // Precisa de muito polimento e de mais funções (resetar, deletar, ver em qual projeto vc gastou mais tempo, etc...)
+
+Funções:
+1- arrumar_Tempo -> Essa função pega um valor inteiro em segundos e o divide em: segundos,minutos,horas e dias para as informações ficarem em ordem e úteis. Até o momento, sua lógica de transformação está correta
