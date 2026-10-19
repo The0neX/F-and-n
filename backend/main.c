@@ -16,13 +16,13 @@
    totalTime global_time = {0,0,0,0};
 //LOGICA    
 int main(){    
-
+    char *ide_name = "Visual Studio Code"; // Fiz isso porque a pessoa pode usar diferentes IDE's
     int* contador_waka_time = (int *)malloc(sizeof(int));
     *contador_waka_time = 0;
     int length_of_window_name = 0;
 
     //Alvos das marcações de divisor das strings
-    char *string_target = (char *)malloc(1*sizeof(char));    
+    char *string_target = (char *)malloc(sizeof(char));    
         while(1){                      
             printf("If you wanna stop the loop, press: 'p'\n");
             if (_kbhit()){
@@ -45,13 +45,15 @@ int main(){
 
                     //Logica maior: A janela em foco do usuario esta no vscode?
 
-                    char *is_in_ide = strstr(window_title, "Visual Studio Code");
+                    char *is_in_ide = strstr(window_title, ide_name);
                     if(!is_in_ide){
-                        printf("You are not in Vscode");
+                        printf("You are not in %s", ide_name);
                         free(window_title);
                         Sleep(1000);
                         continue;
-                    }                                        
+                    }
+                    free(is_in_ide);
+                    free(ide_name);                                        
                     //Explicacao em teste.c 
                     //LÓGICA PARA PEGAR A EXTENSÃO DO ARQUIVO QUE ESTÁ SENDO USADO
 
@@ -93,7 +95,7 @@ int main(){
                     string_target = '.';
                     token = window_title;
                     token2 = strchr(token,string_target);
-                    tamanhodiferenca = token2-token;
+                    tamanhodiferenca = token2 - token;
 
                     char *project_Name = (char *) malloc((tamanhodiferenca+1)*sizeof(char));
                     if (project_Name == NULL){
@@ -123,7 +125,7 @@ int main(){
             } else {
                 printf("Janela sem titulo! \n");
             }
-
+            
             Sleep(1000);
         }       
         // Eu tenho um contador (em segundos), quero armazenar a informação numa struct.
@@ -144,6 +146,7 @@ int main(){
 
     prtDados(&global_time);
 
-free(myArray);   
+free(myArray);
+   
 return 0;
 }

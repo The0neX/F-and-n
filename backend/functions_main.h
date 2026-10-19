@@ -37,8 +37,7 @@ int atualizarTempo(totalTime *mainStructTime,int sec, int min, int hr, int days)
         mainStructTime -> hours += hr;
         mainStructTime -> days += days; 
         
-        return binary_validation;
-    
+        return binary_validation;    
      } else {
             binary_validation = 0;
             
