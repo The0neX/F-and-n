@@ -1,8 +1,6 @@
 # F&n - A free tool for every developer 🛠️
+> **Hey !! How are you? <br>Im gonna do the documentation of F&n project 😶‍🌫️**
 ## Version: 0.1.1 (initial patch)
-
-Hey !! How are you?
-Im gonna do the documentation of F&n project 😶‍🌫️
 
 ## What is F&n❓ 
 F&n is a open **sourced application designed to be a counter of how much time do you spend programming** <br>
