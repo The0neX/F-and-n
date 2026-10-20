@@ -14,7 +14,11 @@ Enjoy to see through the code :) <br>
 |:---------:|:-------:|
 | C         | C is fast and runs the "kernel" of my project |
 <br>
-> Down here you have some of my notes about the project, **but** i suggest you dont try understand that (its out dated). <br>
+
+> Down here you have some of my notes about the project,
+> **but** I suggest you don't try to understand that (it's outdated).
+---
+
 <br>
 And for now, 28/06/2026, I dont really now what I was thinking when I started...
 
