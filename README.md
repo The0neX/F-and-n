@@ -3,11 +3,11 @@
 ## F&n version: 0.1.1 (initial patch)
 
 ## What is F&n❓ 
-F&n is a open **sourced application designed to be a counter of how much time do you spend programming** <br>
-The idea is that the person who use this app will be able choose which IDE use and the "timer" starts automatically. <br>
-This application uses only native c and some libraries (stdio.h, stdlib.h, stdbool.h, string.h). <br>
-Firts of all i want make the application work appropriately and then make it for all OS (because it uses windows.h for now). <br>
-Starting from now, this is the 0.1.1 version         <br>
+- F&n is a open **sourced application designed to be a counter of how much time do you spend programming** <br>
+- The idea is that the person who use this app will be able choose which IDE use and the "timer" starts automatically. <br>
+- This application uses only native c and some libraries (stdio.h, stdlib.h, stdbool.h, string.h). <br>
+- Firts of all i want make the application work appropriately and then make it for all OS (because it uses windows.h for now). <br>
+- Starting from now, this is the 0.1.1 version         <br>
 Enjoy to see through the code :) <br>
 Down here you have some of my notes about the project, but i suggest you dont try understand that (its out dated) <br>
 <br>
