@@ -1,3 +1,6 @@
+# F&n - A free tool for every developer 
+## Versão: 0.1.1 (patch inicial)
+
 Hey !! How are you? 
 Im gonna do the documentation of my project.
 
@@ -8,6 +11,7 @@ This application uses only native c and some libraries (stdio.h, stdlib.h, stdbo
 Firts of all i want make the application work appropriately and then make it for all OS (because it uses windows.h for now). <br>
 Starting from now, this is the 0.1.1 version         <br>
 Enjoy to see through the code :) <br>
+Down here you have some of my notes about the project, but i suggest you dont try understand that (maybe its out dated ) <br>
 
 And for now, 28/06/2026, I dont really now what I was thinking when I started...
 
