@@ -9,7 +9,12 @@
 - Firts of all i want make the application work appropriately and then make it for all OS (because it uses windows.h for now). <br>
 - Starting from now, this is the 0.1.1 version.<br>
 Enjoy to see through the code :) <br>
->Down here you have some of my notes about the project, but i suggest you dont try understand that (its out dated). <br>
+### Used technologies (correspond to this version) 
+| Programing language | Reason |
+|:---------:|:-------:|
+| C         | C is fast and runs the "kernel" of my project |
+<br>
+>Down here you have some of my notes about the project, but i suggest you dont try understand that (its out dated). <br> ---
 <br>
 And for now, 28/06/2026, I dont really now what I was thinking when I started...
 
