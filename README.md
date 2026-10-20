@@ -1,5 +1,5 @@
-# F&n - A free tool for every developer 
-## Versão: 0.1.1 (initial patch)
+# F&n - A free tool for every developer 🧰
+## Version: 0.1.1 (initial patch)
 
 Hey !! How are you? 
 Im gonna do the documentation of my project.
